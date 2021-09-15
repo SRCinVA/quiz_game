@@ -42,6 +42,6 @@ else:
     print("Incorrect!")
 
 if score == 1:
-    print("You made " + str(score) + " point. Not too bad.")
+    print("You got " + str(score) + " point or " + str((score/4) * 100) + "% correct. It's not *terrible,* but ...")
 else:
-    print("You made " + str(score) + " points. Not too bad.") 
+    print("You got " + str(score) + " points or " + str((score/4) * 100) + "% correct. Not too bad.") 
